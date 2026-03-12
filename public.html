@@ -1,0 +1,219 @@
+you have to mae<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Services</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <img class="logo" src="/image/remedigenlogo.png"  alt="logo" href="#">
+
+<h2></h2>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Premium Care</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="cart" onclick="toggleCart()">
+Upgrade <span id="cartCount" class="cart-count">0</span>
+</div>
+
+</header>
+
+<section class="page">
+
+<h1>Our Services</h1>
+<p>The sooner you understand your body, the better you can care for it.</p>
+
+<div class="card-container">
+
+<!-- Web Development -->
+
+<div class="card">
+
+<img src="https://media.istockphoto.com/id/2199586292/photo/doctors-and-the-virtual-medical-revolution-and-technological-advances-artificial-intelligence.jpg?s=1024x1024&w=is&k=20&c=N_05XO4uYW2J6tY-oM4ILricX9Tb5UCtmzNoSZUlntA=">
+
+<h3>AI Diagnosis Assistant</h3>
+
+<p>Smart AI analyzes your symptoms and suggests possible causes.</p>
+
+<button onclick="toggleDetails('web')">Explore</button>
+
+<div id="web" class="details">
+
+<h4>AI-ur friend</h4>
+<p>
+• Analyze multiple symptoms at once
+<br>• Identify possible health conditions
+<br>• Get quick and accurate health insights
+<br>• Understand possible causes of your symptoms
+<br>• Receive basic guidance on next steps
+<br>• Easy and user-friendly symptom input
+</p>
+
+
+</div>
+
+</div>
+
+
+<!-- Startup Building -->
+
+<div class="card">
+
+<img src="https://plus.unsplash.com/premium_photo-1708371357290-c3db16c4779a?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+<h3>Early Disease Detection</h3>
+
+<p>Identify possible health issues early before they become serious.</p>
+
+<button onclick="toggleDetails('startup')">Explore</button>
+
+<div id="startup" class="details">
+
+<h4>Know way before it happens</h4>
+<p>
+<br>• Detect potential health risks at an early stage
+<br>• Monitor symptoms before they become severe
+<br>• Get alerts about possible health concerns
+<br>• Understand warning signs of common diseases
+<br>• Take preventive steps for better health
+<br>• Improve chances of early treatment and recovery
+</p>
+
+</div>
+
+</div>
+
+
+<!-- Mentoring -->
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1586436008973-a9ff747dd260?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+<h3>Symptom History Tracking</h3>
+
+<p>Track your symptoms over time to understand health patterns..</p>
+
+<button onclick="toggleDetails('mentor')">Know More</button>
+
+<div id="mentor" class="details">
+
+<h4>track them</h4>
+<p>
+• Record and monitor your symptoms regularly
+<br>• View your symptom history in one place
+<br>• Identify patterns and recurring health issues
+<br>• Track changes in your health over time
+<br>• Understand how symptoms progress or improve
+<br>• Get better insights for future health decisions
+</p>
+
+</div>
+
+</div>
+
+
+</section>
+
+<div class="cart-panel" id="cartPanel">
+
+<div class="cart-header">
+
+<h3>Your Cart</h3>
+
+<button class="close-cart" onclick="toggleCart()">✖</button>
+
+</div>
+
+<ul id="cartItems"></ul>
+
+<div class="cart-footer">
+
+<button onclick="clearCart()" class="clear-cart">Clear Cart</button>
+<button onclick="proceedToPayment()" class="checkout-btn" style="width: 100%; background: #087222; color: white; border: none; padding: 10px; border-radius: 6px; cursor: pointer; margin-top: 10px;">Proceed to Payment</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-col">
+
+<h3 class="logo">REMEDIGEN</h3>
+
+<p>
+Helping students learn technology, build startups and grow through innovation.
+</p>
+
+<div class="social-icons">
+
+<a href="https://www.instagram.com/levelupofficial.in/"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.linkedin.com/company/levelupevents"><i class="fab fa-instagram"></i></a>
+<a href="https://discord.com/invite/5WjkenMeHC"><i class="fab fa-discord"></i></a>
+<a href="https://youtube.com/@levelupofficial-in?si=9eGdfHSz66hm5krV"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<a href="index.html">Home</a>
+<a href="products.html">Premium Care</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Resources</h4>
+<a href="#">Health Blog</a>
+<a href="#">Diet Tips</a>
+<a href="#">Health Awareness Articles</a>
+<a href="#">Help Center</a>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>Email: remedigen@gmail.com</p>
+<p>Location: Mumbai, India</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>© 2026 Remedigen | Check • Understand • Improve</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

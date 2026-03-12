@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Remedigen</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="welcomeMessage()">
+
+<header>
+    
+    <img class="logo" src="image/remedigenlogo.png"  alt="logo" href="#">
+
+<h2>REMEDIGEN</h2>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="product.html">Premium Care</a>
+<a href="public.html">Services</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="cart" onclick="toggleCart()">
+Upgrade <span id="cartCount" class="cart-count">0</span>
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Decode Your Health</h1>
+
+<p>Know what your body is telling you.</p>
+
+<button onclick="window.location.href='login.html'">Access Your Health</button>
+
+</section>
+
+<section class="page">
+
+<h1>Our Services</h1>
+
+<div class="card-container">
+
+<div class="card">
+
+<img src="https://plus.unsplash.com/premium_photo-1726880565274-aa060f8c4ee6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+<h3>Symptom Checker</h3>
+
+<p>Add your symptoms and get quick insights about possible health conditions..</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1550005876-1049c5ce92da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+<h3>Diet Recommendations</h3>
+
+<p>Receive smart diet suggestions tailored to your health needs.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://plus.unsplash.com/premium_photo-1673341825560-2570c3a51705?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+<h3>Medical Report Insights</h3>
+
+<p>Upload your reports and get simple explanations of your health results.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="cart-panel" id="cartPanel">
+
+<div class="cart-header">
+
+<h3>Your Cart</h3>
+
+<button class="close-cart" onclick="toggleCart()">✖</button>
+
+</div>
+
+<ul id="cartItems"></ul>
+
+<div class="cart-footer">
+
+<button onclick="clearCart()" class="clear-cart">Clear Cart</button>
+<button onclick="proceedToPayment()" class="checkout-btn" style="width: 100%; background: #087222; color: white; border: none; padding: 10px; border-radius: 6px; cursor: pointer; margin-top: 10px;">Proceed to Payment</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-col">
+
+<h3 class="logo">REMEDIGEN</h3>
+
+<p>
+Helping students learn technology, build startups and grow through innovation.
+</p>
+
+<div class="social-icons">
+
+<a href="https://www.instagram.com/levelupofficial.in/"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.linkedin.com/company/levelupevents"><i class="fab fa-instagram"></i></a>
+<a href="https://discord.com/invite/5WjkenMeHC"><i class="fab fa-discord"></i></a>
+<a href="https://youtube.com/@levelupofficial-in?si=9eGdfHSz66hm5krV"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<a href="index.html">Home</a>
+<a href="products.html">Premium Care</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Resources</h4>
+
+<a href="#">Health Blog</a>
+<a href="#">Diet Tips</a>
+<a href="#">Health Awareness Articles</a>
+<a href="#">Help Center</a>
+
+
+</div>
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>Email: remedigen@gmail.com</p>
+<p>Location: Mumbai, India</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>© 2026 Remedigen | Check • Understand • Improve</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Remedigen</title>
+    <!-- Include existing base styles for fonts, reset, and header/footer if needed, though login page can stand alone gracefully -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <img class="logo" src="/image/remedigenlogo.png" alt="logo">
+    <h2>REMEDIGEN</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Premium Care</a>
+        <a href="public.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="login-container">
+    <div class="login-card">
+        <div class="login-header">
+            <h2>Remedigen</h2>
+            <p>Access your health platform</p>
+        </div>
+        <form class="login-form" action="#" onsubmit="event.preventDefault(); window.location.href='index.html';">
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="login-submit-btn">Login</button>
+            <div class="login-links">
+                <a href="#" class="forgot-pwd">Forgot Password?</a>
+                <a href="#" class="signup-link">Create an Account / Sign Up</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
